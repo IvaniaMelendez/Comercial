@@ -1,0 +1,245 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 14 - http://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="Untitled2_autobackup.css" rel="stylesheet">
+<link href="Muebles.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="./language-sp.js"></script>
+<script src="./nopcart.js"></script>
+<script>
+   MonetarySymbol = 'L.';
+   DisplayNotice = true;
+   DisplayShippingColumn = true;
+   DisplayShippingRow    = true;
+   DisplayTaxRow         = true;
+   TaxRate               = 0.0;
+   TaxByRegion           = false;
+   TaxPrompt             = 'For tax purposes, please select if you are an Arizona resident before continuing';
+   TaxablePrompt         = 'Arizona Residents';
+   NonTaxablePrompt      = 'Other States';
+   MinimumOrder          = 0.00;
+   MinimumOrderPrompt    = 'Your order is below our minimum order, please order more before checking out.';
+   PaymentProcessor      = '';
+</script>
+<script src="./fancybox/jquery.easing-1.3.pack.js"></script>
+<link rel="stylesheet" href="./fancybox/jquery.fancybox-1.3.4.css">
+<script src="./fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<script src="./fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("a[rel^='nopcart']").fancybox({});
+   $('.viewcart').click(function()
+   {
+      $.fancybox(
+      {
+         'padding' : 0,
+         'autoScale' : true,
+         'width' : 600,
+         'height' : 500,
+         'href' : 'nop_viewcart.html',
+         'type' : 'iframe'
+      });
+      return false;
+   });
+});
+</script>
+</head>
+<body>
+<div id="wb_LayoutGrid11">
+<div id="LayoutGrid11">
+<div class="row">
+<div class="col-1">
+<div id="wb_Breadcrumb4">
+<ul id="Breadcrumb4">
+<li><a href="./index.html"><i class="fa fa-home">&nbsp;</i>INICIO</a></li>
+</ul>
+
+</div>
+</div>
+<div class="col-2">
+<div id="wb_Breadcrumb6">
+<ul id="Breadcrumb6">
+<li><a href="./Tenis.html">CALZADO</a></li>
+<li class="active" aria-current="page">MADERA</li>
+</ul>
+
+</div>
+</div>
+<div class="col-3">
+<div id="wb_Breadcrumb5">
+<ul id="Breadcrumb5">
+<li><a href="./Contactenos.html"><i class="fa fa-envelope-o">&nbsp;</i>Contactanos</a></li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid1">
+<div id="LayoutGrid1">
+<div class="row">
+<div class="col-1">
+<div id="wb_Extension1">
+<div>
+   <form name="product0">
+   <input type="hidden" name="PRICE" value="3000.00">
+   <input type="hidden" name="NAME" value="Juego de Muebles">
+   <input type="hidden" name="ID_NUM" value="SKU000000">
+   <input type="hidden" name="SHIPPING" value="0.0">
+   <div class="product">
+      <div class="image"><a href="images/ad4ba9bf-cb46-4f13-b601-28cbca0fe799.jpg" rel="nopcart"><img src="images/ad4ba9bf-cb46-4f13-b601-28cbca0fe799.jpg" style="border-width:0;width:450px;height:375px;" alt="Juego de Muebles" title="Juego de Muebles"></a></div>
+      <div class="info">
+         <span class="name">Juego de Muebles<br></span>
+         <span class="price">L.3000.00<br></span>
+         <span class="description"><br></span>
+         <div class="links"><a onclick="AddToCart(document.product0)">Agregar </a>&nbsp;&nbsp;<a class="viewcart">Ver el Carro</a><br></div>
+      </div>
+   </div>
+   </form>
+   <form name="product1">
+   <input type="hidden" name="PRICE" value="4000.00">
+   <input type="hidden" name="NAME" value="Juego de Muebles">
+   <input type="hidden" name="ID_NUM" value="SKU000000">
+   <input type="hidden" name="SHIPPING" value="0.0">
+   <div class="product">
+      <div class="image"><a href="WhatsApp Image 2018-10-23 at 12.04.18 AM (1).jpeg" rel="nopcart"><img src="WhatsApp Image 2018-10-23 at 12.04.18 AM (1).jpeg" style="border-width:0;width:450px;height:375px;" alt="Juego de Muebles" title="Juego de Muebles"></a></div>
+      <div class="info">
+         <span class="name">Juego de Muebles<br></span>
+         <span class="price">L.4000.00<br></span>
+         <span class="description"><br></span>
+         <div class="links"><a onclick="AddToCart(document.product1)">Agregar </a>&nbsp;&nbsp;<a class="viewcart">Ver el Carro</a><br></div>
+      </div>
+   </div>
+   </form>
+</div>
+<div style="clear:both">
+   <form name="product2">
+   <input type="hidden" name="PRICE" value="4500.00">
+   <input type="hidden" name="NAME" value="Comedor">
+   <input type="hidden" name="ID_NUM" value="SKU000000">
+   <input type="hidden" name="SHIPPING" value="0.0">
+   <div class="product">
+      <div class="image"><a href="WhatsApp Image 2018-10-23 at 12.04.31 AM.jpeg" rel="nopcart"><img src="WhatsApp Image 2018-10-23 at 12.04.31 AM.jpeg" style="border-width:0;width:450px;height:375px;" alt="Comedor" title="Comedor"></a></div>
+      <div class="info">
+         <span class="name">Comedor<br></span>
+         <span class="price">L.4500.00<br></span>
+         <span class="description"><br></span>
+         <div class="links"><a onclick="AddToCart(document.product2)">Agregar </a>&nbsp;&nbsp;<a class="viewcart">Ver el Carro</a><br></div>
+      </div>
+   </div>
+   </form>
+   <form name="product3">
+   <input type="hidden" name="PRICE" value="4000.00">
+   <input type="hidden" name="NAME" value="Comedor">
+   <input type="hidden" name="ID_NUM" value="SKU000000">
+   <input type="hidden" name="SHIPPING" value="0.0">
+   <div class="product">
+      <div class="image"><a href="WhatsApp Image 2018-10-23 at 12.04.32 AM (1).jpeg" rel="nopcart"><img src="WhatsApp Image 2018-10-23 at 12.04.32 AM (1).jpeg" style="border-width:0;width:450px;height:375px;" alt="Comedor" title="Comedor"></a></div>
+      <div class="info">
+         <span class="name">Comedor<br></span>
+         <span class="price">L.4000.00<br></span>
+         <span class="description"><br></span>
+         <div class="links"><a onclick="AddToCart(document.product3)">Agregar </a>&nbsp;&nbsp;<a class="viewcart">Ver el Carro</a><br></div>
+      </div>
+   </div>
+   </form>
+</div>
+<div style="clear:both">
+   <form name="product4">
+   <input type="hidden" name="PRICE" value="4500.00">
+   <input type="hidden" name="NAME" value="Juego de Muebles">
+   <input type="hidden" name="ID_NUM" value="SKU000000">
+   <input type="hidden" name="SHIPPING" value="0.0">
+   <div class="product">
+      <div class="image"><a href="WhatsApp Image 2018-10-23 at 12.04.34 AM.jpeg" rel="nopcart"><img src="WhatsApp Image 2018-10-23 at 12.04.34 AM.jpeg" style="border-width:0;width:450px;height:375px;" alt="Juego de Muebles" title="Juego de Muebles"></a></div>
+      <div class="info">
+         <span class="name">Juego de Muebles<br></span>
+         <span class="price">L.4500.00<br></span>
+         <span class="description"><br></span>
+         <div class="links"><a onclick="AddToCart(document.product4)">Agregar </a>&nbsp;&nbsp;<a class="viewcart">Ver el Carro</a><br></div>
+      </div>
+   </div>
+   </form>
+   <form name="product5">
+   <input type="hidden" name="PRICE" value="5000.00">
+   <input type="hidden" name="NAME" value="Ropero">
+   <input type="hidden" name="ID_NUM" value="SKU000000">
+   <input type="hidden" name="SHIPPING" value="0.0">
+   <div class="product">
+      <div class="image"><a href="WhatsApp Image 2018-10-23 at 12.04.43 AM.jpeg" rel="nopcart"><img src="WhatsApp Image 2018-10-23 at 12.04.43 AM.jpeg" style="border-width:0;width:337px;height:500px;" alt="Ropero" title="Ropero"></a></div>
+      <div class="info">
+         <span class="name">Ropero<br></span>
+         <span class="price">L.5000.00<br></span>
+         <span class="description">Description of the product<br></span>
+         <div class="links"><a onclick="AddToCart(document.product5)">Agregar </a>&nbsp;&nbsp;<a class="viewcart">Ver el Carro</a><br></div>
+      </div>
+   </div>
+   </form>
+</div>
+<div style="clear:both">
+   <form name="product6">
+   <input type="hidden" name="PRICE" value="4000.00">
+   <input type="hidden" name="NAME" value="Escritorio">
+   <input type="hidden" name="ID_NUM" value="SKU000000">
+   <input type="hidden" name="SHIPPING" value="0.0">
+   <div class="product">
+      <div class="image"><a href="WhatsApp Image 2018-10-23 at 12.05.58 AM.jpeg" rel="nopcart"><img src="WhatsApp Image 2018-10-23 at 12.05.58 AM.jpeg" style="border-width:0;width:450px;height:375px;" alt="Escritorio" title="Escritorio"></a></div>
+      <div class="info">
+         <span class="name">Escritorio<br></span>
+         <span class="price">L.4000.00<br></span>
+         <span class="description"><br></span>
+         <div class="links"><a onclick="AddToCart(document.product6)">Agregar </a>&nbsp;&nbsp;<a class="viewcart">Ver el Carro</a><br></div>
+      </div>
+   </div>
+   </form>
+   <form name="product7">
+   <input type="hidden" name="PRICE" value="3500.00">
+   <input type="hidden" name="NAME" value="Tocador">
+   <input type="hidden" name="ID_NUM" value="SKU000000">
+   <input type="hidden" name="SHIPPING" value="0.0">
+   <div class="product">
+      <div class="image"><a href="WhatsApp Image 2018-10-23 at 12.06.00 AM - copia.jpeg" rel="nopcart"><img src="WhatsApp Image 2018-10-23 at 12.06.00 AM - copia.jpeg" style="border-width:0;width:337px;height:500px;" alt="Tocador" title="Tocador"></a></div>
+      <div class="info">
+         <span class="name">Tocador<br></span>
+         <span class="price">L.3500.00<br></span>
+         <span class="description"><br></span>
+         <div class="links"><a onclick="AddToCart(document.product7)">Agregar </a>&nbsp;&nbsp;<a class="viewcart">Ver el Carro</a><br></div>
+      </div>
+   </div>
+   </form>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid10">
+<div id="LayoutGrid10">
+<div class="row">
+<div class="col-1">
+<div id="wb_Breadcrumb2">
+<ul id="Breadcrumb2">
+<li><a href="./index.html">Inicio</a></li>
+<li><a href="./Tenis.html">Calzado</a></li>
+<li class="active" aria-current="page">Madera</li>
+<li><a href="./Contactenos.html">Contactanos</a></li>
+</ul>
+
+</div>
+<div id="wb_Text8">
+<span style="color:#656565;font-family:Arial;font-size:13px;">variedadesarihany@gmail.com</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
